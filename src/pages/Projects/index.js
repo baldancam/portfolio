@@ -86,8 +86,11 @@ export default function Projects() {
               onClick={() => redirectLink('https://agenda-hujg.onrender.com')}
             />
             <Information>
-              <h4>Timer</h4>
-              <p>Utilizando JavaScript, HTML e CSS, implementação de animações e paginas.</p>
+              <h4>Agenda</h4>
+              <p>
+                Utilizando JavaScript, Node, Express e MongoDB. Implementação de uma agenda de
+                contatos.
+              </p>
               <Buttons>
                 <button
                   className="button-one"
