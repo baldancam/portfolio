@@ -78,6 +78,34 @@ export default function Projects() {
               </Buttons>
             </Information>
           </Portfolio>
+
+          <Portfolio>
+            <Presentation
+              className="ImgEffect"
+              src="./page-projects/img-calculadora.png"
+              onClick={() => redirectLink('https://calculadora.mcbcode.com')}
+            />
+            <Information>
+              <h4>Calculadora</h4>
+              <p>
+                Utilizando JavaScript,HTML e CSS, implementei funções simples de uma calculadora.
+              </p>
+              <Buttons>
+                <button
+                  className="button-one"
+                  type="button"
+                  onClick={() => redirectLink('https://calculadora.mcbcode.com')}>
+                  Site
+                </button>
+                <button
+                  className="button-two"
+                  type="button"
+                  onClick={() => redirectLink('https://github.com/baldancam/basic-calculator')}>
+                  Repositório
+                </button>
+              </Buttons>
+            </Information>
+          </Portfolio>
         </Content>
       </Projetos>
     </Table>
