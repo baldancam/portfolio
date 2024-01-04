@@ -172,7 +172,7 @@ export default function Projects() {
               onClick={() => redirectLink('https://spiderman.mcbcode.com')}
             />
             <Information>
-              <h4>Timer</h4>
+              <h4>Spider Man</h4>
               <p>Utilizando JavaScript, HTML e CSS, implementação de animações e paginas.</p>
               <Buttons>
                 <button
