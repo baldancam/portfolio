@@ -82,6 +82,32 @@ export default function Projects() {
           <Portfolio>
             <Presentation
               className="ImgEffect"
+              src="./page-projects/img-agenda.png"
+              onClick={() => redirectLink('https://agenda-hujg.onrender.com')}
+            />
+            <Information>
+              <h4>Timer</h4>
+              <p>Utilizando JavaScript, HTML e CSS, implementação de animações e paginas.</p>
+              <Buttons>
+                <button
+                  className="button-one"
+                  type="button"
+                  onClick={() => redirectLink('https://agenda-hujg.onrender.com')}>
+                  Site
+                </button>
+                <button
+                  className="button-two"
+                  type="button"
+                  onClick={() => redirectLink('https://github.com/baldancam/agenda')}>
+                  Repositório
+                </button>
+              </Buttons>
+            </Information>
+          </Portfolio>
+
+          <Portfolio>
+            <Presentation
+              className="ImgEffect"
               src="./page-projects/img-calculadora.png"
               onClick={() => redirectLink('https://calculadora.mcbcode.com')}
             />
