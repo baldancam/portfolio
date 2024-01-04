@@ -88,7 +88,8 @@ export default function Projects() {
             <Information>
               <h4>Calculadora</h4>
               <p>
-                Utilizando JavaScript,HTML e CSS, implementei funções simples de uma calculadora.
+                Utilizando JavaScript, HTML e CSS, implementação de funções simples de uma
+                calculadora.
               </p>
               <Buttons>
                 <button
