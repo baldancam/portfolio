@@ -135,6 +135,34 @@ export default function Projects() {
               </Buttons>
             </Information>
           </Portfolio>
+
+          <Portfolio>
+            <Presentation
+              className="ImgEffect"
+              src="./page-projects/img-spiderman.png"
+              onClick={() => redirectLink('https://spiderman.mcbcode.com')}
+            />
+            <Information>
+              <h4>Timer</h4>
+              <p>Utilizando JavaScript, HTML e CSS, implementação de animações e paginas.</p>
+              <Buttons>
+                <button
+                  className="button-one"
+                  type="button"
+                  onClick={() => redirectLink('https://spiderman.mcbcode.com')}>
+                  Site
+                </button>
+                <button
+                  className="button-two"
+                  type="button"
+                  onClick={() =>
+                    redirectLink('https://github.com/baldancam/multiverso-spider-man-dio')
+                  }>
+                  Repositório
+                </button>
+              </Buttons>
+            </Information>
+          </Portfolio>
         </Content>
       </Projetos>
     </Table>
