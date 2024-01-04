@@ -111,7 +111,7 @@ export default function Projects() {
           <Portfolio>
             <Presentation
               className="ImgEffect"
-              src="./page-projects/img-calculadora.png"
+              src="./page-projects/img-timer.png"
               onClick={() => redirectLink('https://timer.mcbcode.com')}
             />
             <Information>
