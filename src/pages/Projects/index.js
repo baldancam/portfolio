@@ -107,6 +107,34 @@ export default function Projects() {
               </Buttons>
             </Information>
           </Portfolio>
+
+          <Portfolio>
+            <Presentation
+              className="ImgEffect"
+              src="./page-projects/img-calculadora.png"
+              onClick={() => redirectLink('https://timer.mcbcode.com')}
+            />
+            <Information>
+              <h4>Timer</h4>
+              <p>
+                Utilizando JavaScript, HTML e CSS, implementação de funções simples de um timer.
+              </p>
+              <Buttons>
+                <button
+                  className="button-one"
+                  type="button"
+                  onClick={() => redirectLink('https://timer.mcbcode.com')}>
+                  Site
+                </button>
+                <button
+                  className="button-two"
+                  type="button"
+                  onClick={() => redirectLink('https://github.com/baldancam/timer-simple')}>
+                  Repositório
+                </button>
+              </Buttons>
+            </Information>
+          </Portfolio>
         </Content>
       </Projetos>
     </Table>
